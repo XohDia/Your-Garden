@@ -1,9 +1,9 @@
-import Navbar from './components/Navbar'
+import NavbarExercice from './components/Navbar-exercice';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <NavbarExercice />
       
       {/* Contenu de ta page - ajoute du padding-top pour ne pas être caché par la navbar fixe */}
       <main className="pt-20">
